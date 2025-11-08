@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+.active{
+    display: block;
+}
+.tab-link.active{
+    @apply text-black font-semibold border-black;
+}
